@@ -8,72 +8,43 @@ This is a Battleship Game wrote in Python and deployed using HEROKU
 
 - __Gameplay__
 
-  There is no navigation on this site as the website is just a simple game for the user to enjoy. The player chooses from one of the 5 options.
-  after the selection, a random number is generated to simulate the cpu turn and depending on the selections. a outcome will be determined via switch statement and nested   if statements
-  
-  also as the player hovers over there selection, their selection will increase in size to give the player some feedback as to their selection.
+  The gameplay for Battleship is simple. The player has a total of five turns to sink the one hiding battleship on the board
+  Players will select a row and column and then will be infomred wether or not the ship has been sunk.
+  The position of the ship is randomly generated each game so there is some replayability to the game.
+  If the player guesses outside of the scope of the board, a turn is consumed and they are informed of the error.
 
 ![gameplay](assets/images/gameplay_image.png) 
 
 - __Game Conclusion__
 
-  When either the player or cpu have reached a score of 10, the player will be alerted of the winner and the webpage will then reload.
-
-![Game Ending](assets/images/game_conclusion.png)
-
+  The player has five turns, if the guess is incorrect then they will be informed and offered another go until and turns have expired.
+  If the player guesses the position of the ship correctly then they are informed that they have won.
 
 ## Features Left to Implement
 
-- __better design__
-  I would have like to have worked on the CSS more as it is something that I struggle with and would have liked to add alot more flare and finese. (will come back to     improve it)
-  would like to add sound effects and other such feedback for the user, maybe some animations to show the result of each hand.
+Features that I will add in the future include, more ships on the board. and with each hit of the added ships then the player can add shots back to their count.
+A scalable playable board that the player can decide on. Better UI for the player, in the games current state I feel the current outline for the board isnt as
+visualy pleasing as it could be.
 
 ## Testing 
 
-- throughout the development, monitored all values by logging results in the chrome console to ensure that I was getting the correct results/scores for each hand
-- I tested the webpage in multiple differnet website e.g chrome, firefox and edge. also tested the site on my own phone and all functioned correctly
+When it came to testing, I debugged the ship position throught the development and logged. I did try to implament a scalable board to the game but due to time
+restraints was unable to do so and will have to add in the future.
 
 ## Bugs
 
-Didnt come across any bugs in the javascript portion of this project, but the CSS, I struggled with the alighment of the text on the web page when doing my media querys (need to practice CSS more)
+No significant bugs to note. Did have some issues in regards to if statments although this is just due to me not being accustomed to indentation sensitivity with
+Python
 
 ### Solved Bugs
 
-- got the alignment somewhat center for the player information at the bottom of the page.
-
-
-## Validator Testing 
-
-- HTML: no errors were returned when passing through WS3 validator
-
-- CSS: no errors were found when passing through Jigsaw validator
-
-- ACCESSIBILITY: passed lighthouse
-
-- JSHINT: had slight error but corrected and passed.
-
-![test1](assets/images/html_check.png)
-
-![test2](assets/images/css_check.png)
-
-![test3](assets/images/lighthouse_report.png)
-
-![test3](assets/images/js_check.png)
-
+Figured out the placment of the statments, like stated above. I am more familiar with languages like Java and C#, so the indentaiton in python took a while to get used too and took some moving around to get right.
 
 ## Deployment
 
-- The website was deployed to GitHub pages. The steps to deploy are as follows:
-- In the Github repository, navigate to the settings tab.
-- From the source section drop-down menu, select the master branch.
-- Once the master branch has been selected, the page provided the link the completed website
-- Here is the live link: https://ghostlypleb.github.io/-portfolio-project-2
+Deployment was done with HEROKU. This was achieved by linking my Github account to the site and linking the repository, ensuring that that I had both NODE.JS and Python Buildpacks and setting up Config Vars.
 
 ## Credits 
 
-I would like to thank both coffee and monster this time around.
-The image used was obtained from google images and was photoshoped by me to extract each of the revalent images
-
-## Media
-
-- All the images were collected from google images and photoshoped by me.
+Forums on Stack Overflow
+Coffee
