@@ -8,7 +8,7 @@ This is a Battleship Game wrote in Python and deployed using HEROKU
 
 - __Gameplay__
 
-  The gameplay for Battleship is simple. The player has a total of five turns to sink the one hiding battleship on the board
+  The gameplay for Battleship is simple. The player has a total of five turns to sink the one hiding battleship on the board,
   Players will select a row and column and then will be infomred wether or not the ship has been sunk.
   The position of the ship is randomly generated each game so there is some replayability to the game.
   If the player guesses outside of the scope of the board, a turn is consumed and they are informed of the error.
