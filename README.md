@@ -28,7 +28,7 @@ visualy pleasing as it could be.
 
 ## Testing 
 
-When it came to testing, I debugged the ship position throught the development and logged. I did try to implament a scalable board to the game but due to time
+When it came to testing, I debugged the ship position throught the development and logged. I did try to implement a scalable board to the game but due to time
 restraints was unable to do so and will have to add in the future.
 
 ## Bugs
