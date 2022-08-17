@@ -13,7 +13,7 @@ This is a Battleship Game wrote in Python and deployed using HEROKU
   
   also as the player hovers over there selection, their selection will increase in size to give the player some feedback as to their selection.
 
-![gameplay](assets/images/game_screenshot.png) 
+![gameplay](assets/images/gameplay_image.png) 
 
 - __Game Conclusion__
 
