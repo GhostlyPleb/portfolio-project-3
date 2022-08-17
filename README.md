@@ -1,31 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Responsice Mockup](assets/images/program_image.png)
 
-Welcome USER_NAME,
+# BATTLESHIP PYTHON GAME
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+This is a Battleship Game wrote in Python and deployed using HEROKU
 
-## Reminders
+## Features 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+- __Gameplay__
 
-## Creating the Heroku app
+  There is no navigation on this site as the website is just a simple game for the user to enjoy. The player chooses from one of the 5 options.
+  after the selection, a random number is generated to simulate the cpu turn and depending on the selections. a outcome will be determined via switch statement and nested   if statements
+  
+  also as the player hovers over there selection, their selection will increase in size to give the player some feedback as to their selection.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+![gameplay](assets/images/gameplay_image.png) 
 
-1. `heroku/python`
-2. `heroku/nodejs`
+- __Game Conclusion__
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+  When either the player or cpu have reached a score of 10, the player will be alerted of the winner and the webpage will then reload.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+![Game Ending](assets/images/game_conclusion.png)
 
-Connect your GitHub repository and deploy as normal.
 
-## Constraints
+## Features Left to Implement
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- __better design__
+  I would have like to have worked on the CSS more as it is something that I struggle with and would have liked to add alot more flare and finese. (will come back to     improve it)
+  would like to add sound effects and other such feedback for the user, maybe some animations to show the result of each hand.
 
------
-Happy coding!
+## Testing 
+
+- throughout the development, monitored all values by logging results in the chrome console to ensure that I was getting the correct results/scores for each hand
+- I tested the webpage in multiple differnet website e.g chrome, firefox and edge. also tested the site on my own phone and all functioned correctly
+
+## Bugs
+
+Didnt come across any bugs in the javascript portion of this project, but the CSS, I struggled with the alighment of the text on the web page when doing my media querys (need to practice CSS more)
+
+### Solved Bugs
+
+- got the alignment somewhat center for the player information at the bottom of the page.
+
+
+## Validator Testing 
+
+- HTML: no errors were returned when passing through WS3 validator
+
+- CSS: no errors were found when passing through Jigsaw validator
+
+- ACCESSIBILITY: passed lighthouse
+
+- JSHINT: had slight error but corrected and passed.
+
+![test1](assets/images/html_check.png)
+
+![test2](assets/images/css_check.png)
+
+![test3](assets/images/lighthouse_report.png)
+
+![test3](assets/images/js_check.png)
+
+
+## Deployment
+
+- The website was deployed to GitHub pages. The steps to deploy are as follows:
+- In the Github repository, navigate to the settings tab.
+- From the source section drop-down menu, select the master branch.
+- Once the master branch has been selected, the page provided the link the completed website
+- Here is the live link: https://ghostlypleb.github.io/-portfolio-project-2
+
+## Credits 
+
+I would like to thank both coffee and monster this time around.
+The image used was obtained from google images and was photoshoped by me to extract each of the revalent images
+
+## Media
+
+- All the images were collected from google images and photoshoped by me.
