@@ -17,7 +17,7 @@ This is a Battleship Game wrote in Python and deployed using HEROKU
 
 - __Game Conclusion__
 
-  The player has five turns, if the guess is incorrect then they will be informed and offered another go until and turns have expired.
+  The player has five turns, if the guess is incorrect then they will be informed and offered another go until all turns have expired.
   If the player guesses the position of the ship correctly then they are informed that they have won.
 
 ## Features Left to Implement
